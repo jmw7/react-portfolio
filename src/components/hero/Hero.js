@@ -19,11 +19,11 @@ export default function Hero() {
           </p>
           <div className='bio-item'>
             <img src={Coffee} alt='coffee' className='bio-icon' />
-            <p>drinking coffee </p>
+            <p>drinking coffee</p>
           </div>
           <div className='bio-item'>
             <img src={Wool} alt='wool' className='bio-icon' />
-            <p>settling Catan</p>
+            <p>settling the island of Catan</p>
           </div>
           <div className='bio-item'>
             <img src={Plane} alt='plane' className='bio-icon' />

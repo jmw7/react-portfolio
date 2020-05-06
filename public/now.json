@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "mendolawong.com",
+  "alias": "mendolawong",
   "name": "portfolio",
   "routes": [
       { "handle": "filesystem" },

@@ -5,13 +5,7 @@ import Bio from './components/bio/Bio';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faMugHot, faGlobeAsia, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-
 import './App.css';
-
-library.add(fab, faPaperPlane, faMugHot, faGlobeAsia )
 
 function App() {
   return (
