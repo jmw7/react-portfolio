@@ -1,16 +1,33 @@
 #bio-section{
   margin-bottom: 30px;
   padding-top: 100px;
-  height: 100vh;
+  min-height: 100vh;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .bio-container{
   padding: 10px;
   border: 1px gray solid;
+  background-color: white;
+}
+
+img.bio-pic{
+  border-radius: 10px;
+  display: block;
+  width: 80vw;
+  margin: 0 auto 15px;
+}
+
+.bio {
+  display: block;
+  width: 80vw;
+  margin: 5px auto;
+}
+
+div.bio p {
+  margin: 5px;
 }
 
 #bio-section h2 {

@@ -11,8 +11,12 @@ h2, h3 {
  text-align: center;
 }
 
-h3 {
+h2 {
   font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -42,8 +46,7 @@ h4 {
 }
 
 h4 .icon{
-  height: 40px;
-  width: 40px;
+  height: 30px;
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -74,9 +77,21 @@ a.link:hover {
   text-decoration: underline;
 }
 
+#nodejs {
+  padding-right: 2px;
+}
+
 @media screen and (min-width: 768px){
   #project-section h2 {
     font-size: 44px;
     margin-bottom: 25px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 .icon{
+    height: 40px;
   }
 }

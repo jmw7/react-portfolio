@@ -28,7 +28,7 @@ export default function Projects() {
           <img src={HTML} alt='html' className='icon' />
           <img src={CSS} alt='css' className='icon' />
           <img src={ReactLogo} alt='reactjs' className='icon' />
-          <img src={Node} alt='nodejs' className='icon' />
+          <img src={Node} alt='nodejs' className='icon' id='nodejs' />
           <img src={Postgresql} alt='postgresql' className='icon' />
         </h4>
         <p>Budgeteer is an expense tracker that helps users manage their purchases.
@@ -50,7 +50,7 @@ export default function Projects() {
           <img src={HTML} alt='html' className='icon' />
           <img src={CSS} alt='css' className='icon' />
           <img src={ReactLogo} alt='reactjs' className='icon' />
-          <img src={Node} alt='nodejs' className='icon' />
+          <img src={Node} alt='nodejs' className='icon' id='nodejs' />
           <img src={Postgresql} alt='postgresql' className='icon' />
         </h4>
         <p>Recipe Catalog is digital recipe storage container for the modern times.

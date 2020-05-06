@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
           <div className='bio-item'>
             <img src={Wool} alt='wool' className='bio-icon' />
-            <p>settling the island of Catan</p>
+            <p>settling Catan</p>
           </div>
           <div className='bio-item'>
             <img src={Plane} alt='plane' className='bio-icon' />

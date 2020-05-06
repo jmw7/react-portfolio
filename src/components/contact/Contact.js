@@ -13,7 +13,7 @@ export default function Contact() {
       <ul className='contact-icons'>
         <li>
           <a className="email" href="mailto:jwong.ncsu@gmail.com">
-            <img src={Email} alt='email' className='contact-icon' />
+            <img src={Email} alt='email' className='contact-icon' id='email' />
           </a>
         </li>
         <li>

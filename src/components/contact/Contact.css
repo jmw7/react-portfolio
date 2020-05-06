@@ -1,4 +1,5 @@
 h2.contact-me {
+  font-size: 30px;
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
@@ -13,12 +14,28 @@ ul.contact-icons {
 }
 
 .contact-icon{
-  height: 50px;
-  width: 50px;
-  transition: top 2s linear;
+  height: 30px;
+  -moz-transition: top 2s ease-in-out;
+	-webkit-transition: top 2s ease-in-out;
+	-ms-transition: top 2s ease-in-out;
+  transition: top 2s ease-in-out;
 }
 
 .contact-icon:hover {
   position: relative;
   top: -7px;
+}
+
+#email {
+  padding-top: 2px;
+}
+
+@media screen and (min-width: 768px){
+  h2.contact-me {
+    font-size: 44px;
+  }
+
+  .contact-icon {
+    height: 40px;
+  }
 }

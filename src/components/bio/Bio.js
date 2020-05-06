@@ -1,11 +1,14 @@
 import React from 'react';
+
+import Travel from '../../images/NewZealand.jpg';
 import './Bio.css';
 
 export default function Bio() {
   return (
     <div id='bio-section'>
       <div className='bio-container'>
-        <h2>A bit about me:</h2>
+        <h2>A bit about me</h2>
+        <img src={Travel} alt='New Zealand' className='bio-pic' />
         <div className="bio">
           <p>
             I'm a full stack web developer focused on React and Node, sprinkled with a little bit of ASP Classic and SQL.

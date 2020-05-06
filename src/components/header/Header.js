@@ -10,8 +10,8 @@ export default function Header() {
 
         <div className="menu">
           <ul className='links'>
-            <li><Link smooth to='/#bio-section' className="jumper">Bio</Link></li>
             <li><Link smooth to='#project-section' className="jumper">Projects</Link></li>
+            <li><Link smooth to='/#bio-section' className="jumper">Bio</Link></li>
             <li><Link smooth to='#contact-section' className="jumper">Contact</Link></li>
           </ul>
         </div>

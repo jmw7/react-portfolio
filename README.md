@@ -68,6 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ## Images
- - [Coffee](https://thenounproject.com/search/?q=coffee&i=3327143) icon by The Icon Z from The Noun Project
+ - [Coffee](https://thenounproject.com/search/?q=coffee&i=3327143) and [Email](https://thenounproject.com/search/?q=email&i=3325680) icons by The Icon Z from The Noun Project
  - [Wool](https://thenounproject.com/term/wool/53278/) icon by Callum Taylor from The Noun Project
  - [Plane](https://thenounproject.com/search/?q=plane&i=3282441) icon by alkhalifi_design from The Noun Project
