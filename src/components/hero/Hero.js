@@ -9,13 +9,13 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <div className='hero-section'>
+    <div className='hero-section' id='home'>
       <div className='hero-description'>
         <h2>Hey. My name is Justin.</h2>
         <div className='quick-description'>
           <p>
             I'm a <strong>full-stack developer</strong> located in the greater Atlanta area.
-          <br /><br />When I'm not at the keyboard, you may find me...
+          <br />When I'm not at the keyboard, you may find me...
           </p>
           <div className='bio-item'>
             <img src={Coffee} alt='coffee' className='bio-icon' />

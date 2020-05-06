@@ -12,7 +12,7 @@ h2, h3 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 36px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -75,5 +75,8 @@ a.link:hover {
 }
 
 @media screen and (min-width: 768px){
-
+  #project-section h2 {
+    font-size: 44px;
+    margin-bottom: 25px;
+  }
 }

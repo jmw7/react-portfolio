@@ -28,4 +28,8 @@
   #bio-section{
     padding-top: 90px;
   }
+
+  #bio-section h2 {
+    font-size: 44px;
+  }
 }
