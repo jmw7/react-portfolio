@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  text-align: center;
+  display: block;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px black solid;
+  background-color: black;
+  opacity: 1;
+  color: white;
+}
+
+.header-name {
+  font-size: 28px;
+  padding: 15px 5px 5px;
+  margin: 0;
+} 
+
+ul {
+  list-style: none;
+  padding: 0 15px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.jumper {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.jumper:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+  
+  .header {
+    height: 75px;
+  }
+
+  h1.header-name {
+    font-size: 2.5em;
+  }
+
+  .menu {
+    position: relative;
+    right: 0;
+    top: -45px;
+    float: right;
+  }
+
+  a.jumper{
+    font-size: 1.75em;
+  }
+
+}

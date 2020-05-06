@@ -1,0 +1,79 @@
+#project-section {
+  width: 90%;
+  padding-top: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+h2, h3 {
+ text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project {
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  opacity: 1;
+  margin-bottom: 25px;
+}
+
+.project > p {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+h4 .icon{
+  height: 40px;
+  width: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.img-container{
+  overflow: hidden;
+}
+
+.img-container img {
+  transition: transform 2s ease;
+}
+
+.img-container:hover img {
+  transform: scale(1.05);
+}
+
+ul.links {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+a.link {
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+
+}
