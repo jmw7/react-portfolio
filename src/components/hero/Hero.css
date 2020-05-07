@@ -3,32 +3,33 @@ p {
   margin-bottom: 5px;
 }
 
-
-
-.hero-description h2{
-  text-align: left;
+.hero-section h2{
+  text-align: center;
   font-size: 24px;
+  margin-bottom: 0;
 }
 
 .hero-section {
-  height: 100vh;
-  max-width: 90%;
+  max-width: 95%;
   margin-left: auto;
-  margin-right:auto;
-  padding-top: 60px;
+  margin-right: auto;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
 div.hero-description {
-  display: inline-block;
-  padding: 25px; 
-  
+  width: 100%;
+  padding: 10px 0;
 }
 
 .bio-item{
   display: flex;
   align-items:center;
+  padding-left: 25px;
+  
 }
 
 .bio-icon {
@@ -37,113 +38,85 @@ div.hero-description {
 }
 
 #bioPhoto {
-  height: 200px;
+  height: 150px;
   border-radius: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 15px;
 }
 
-@media screen and (min-width: 375px){
-  #bioPhoto {
-    height: 300px;
-  }
-
-  .hero-description h2{
-    font-size: 28px;
-  }
+#skills{
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 
-@media screen and (min-width: 794px){
+@media screen and (min-width: 768px){
   .hero-section {
     width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
   }
 
-  .hero-description{
-    margin: 0 0 0 25px;
+  .hero-section h2 {
+    font-size: 40px;
+    margin-top: 10px;
   }
 
-  h2 {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 0;
+  .quick-description {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quick-description p {
+    font-size: 1.5em;
+  }
+
+  .bio-item {
+    padding-left: 25px;
+  }
+
+  .bio-icon {
+    height: 30px;
+    padding-right: 10px;
   }
 
   #bioPhoto {
     height: 400px;
     border-radius: 10px;
-    margin: 0;
+    margin: 30px auto;
   }
+
+  #skills{
+    font-size: 20px;
+  }
+  
 }
 
-@media screen and (min-width: 900px){
+
+@media screen and (min-width: 1200px){
   .hero-section {
     height: 100vh;
     padding-top: 80px;
+  }
+
+  div.hero-description {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 
-  .quick-description {
-    padding-top: 25px;
-    font-size: 1.5em;
-  }
-
-  .hero-description {
-    display: inline-block;
-    margin: 15px; 
-  }
-
-  .hero-description h2 {
-    font-weight: normal;
-    font-size: 2.3em;
-    margin-bottom: 15px;
-  }
-
-  .bio-item p {
-    padding-left: 5px;
-  }
-  
   .bio-icon {
     height: 40px;
     padding-right: 5px;
   }
-
+  
   #bioPhoto {
-    height: 400px;
-    border-radius: 10px;
-    margin: 0;
-  }
-
-}
-
-
-
-@media screen and (min-width: 1065px){
-  .hero-section {
-    height: 100vh;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-  }
-
-  div.hero-description {
-    margin-left: 45px;
-  }
-
-  .hero-description h2 {
-    font-size: 3em;
-    margin-bottom: 25px;
-
+    margin: 0 25px;
   }
   
+  .quick-description {
+    padding: 30px 15px 15px 25px;
+  }
+
   .bio-item p {
     padding-left: 5px;
   }

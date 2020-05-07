@@ -17,12 +17,12 @@ export default function Contact() {
           </a>
         </li>
         <li>
-          <a className="github" href="https://github.com/jmw7">
+          <a className="github" href="https://github.com/jmw7" target='_blank' rel="noopener noreferrer">
             <img src={Github} alt='github' className='contact-icon' />
           </a>
         </li>
         <li>
-          <a className="linkedin" href="https://www.linkedin.com/in/mendola-wong/">
+          <a className="linkedin" href="https://www.linkedin.com/in/mendola-wong/" target='_blank'  rel="noopener noreferrer">
             <img src={LinkedIn} alt='linkedIn' className='contact-icon' />
           </a>
         </li>

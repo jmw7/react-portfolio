@@ -10,12 +10,14 @@ import './Hero.css';
 export default function Hero() {
   return (
     <div className='hero-section' id='home'>
+      <h2>Hey. My name is Justin.</h2>
       <div className='hero-description'>
-        <h2>Hey. My name is Justin.</h2>
+        <img src={BioPhoto} alt='Justin Mendola-Wong' id='bioPhoto' />
         <div className='quick-description'>
-          <p>
-            I'm a <strong>full-stack developer</strong> located in the greater Atlanta area.
-          <br />When I'm not at the keyboard, you may find me...
+          <p>I'm a <strong>full-stack developer</strong> located in the greater Atlanta area. I play nicely with</p>
+          <h4 id='skills'><strong>HTML | CSS | Javascript | React | Node | PostgreSQL</strong></h4>
+          <br /><br />
+          <p>When I'm not at the keyboard, you may find me...
           </p>
           <div className='bio-item'>
             <img src={Coffee} alt='coffee' className='bio-icon' />
@@ -32,7 +34,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <img src={BioPhoto} alt='Justin Mendola-Wong' id='bioPhoto' />
     </div>
   );
 }

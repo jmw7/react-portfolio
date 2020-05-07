@@ -32,12 +32,13 @@ export default function Projects() {
           <img src={Postgresql} alt='postgresql' className='icon' />
         </h4>
         <p>Budgeteer is an expense tracker that helps users manage their purchases.
-        Budgeting is a necessary tool for anyone who wants to take control over their finances.
+        Budgeting is a necessary tool for anyone who wants to take control of their finances.
+        I built Budgeteer as a tool to help make managing transactions easier.
         </p>
         <ul className="links">
-          <li><a className="link" href="https://github.com/jmw7/budgeteer-client">Client Code</a></li>
-          <li><a className="link" href="https://github.com/jmw7/budgeteer-api">Server Code</a></li>
-          <li><a className="link" href="https://budgeteer-app.now.sh/">View Project</a></li>
+          <li><a className="link" href="https://github.com/jmw7/budgeteer-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
+          <li><a className="link" href="https://github.com/jmw7/budgeteer-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
+          <li><a className="link" href="https://budgeteer-app.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
 
@@ -53,14 +54,13 @@ export default function Projects() {
           <img src={Node} alt='nodejs' className='icon' id='nodejs' />
           <img src={Postgresql} alt='postgresql' className='icon' />
         </h4>
-        <p>Recipe Catalog is digital recipe storage container for the modern times.
-        Gone are the days of physical recipe books. All recipes can be bookmarked and linked directly to the website.
-        This idea evolved out of bookmarking recipes I'd find on the web and needed a consolidated place to keep them.
+        <p>Recipe Catalog is a digital recipe storage container for modern times; gone are the days of physical recipe books. All recipes can be bookmarked and linked directly to the website.
+        The idea evolved out of bookmarking recipes I'd find on the web and needed a consolidated place to keep them. This is for anyone who searches for a new recipe to cook the day of.
         </p>
         <ul className="links">
-          <li><a className="link" href="https://github.com/jmw7/recipe-client">Client Code</a></li>
-          <li><a className="link" href="https://github.com/jmw7/recipe-api">Server Code</a></li>
-          <li><a className="link" href="https://recipes-app-zeta.now.sh/">View Project</a></li>
+          <li><a className="link" href="https://github.com/jmw7/recipe-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
+          <li><a className="link" href="https://github.com/jmw7/recipe-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
+          <li><a className="link" href="https://recipes-app-zeta.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
 
@@ -74,14 +74,14 @@ export default function Projects() {
           <img src={CSS} alt='css' className='icon' />
           <img src={jQuery} alt='jQuery' className='icon' />
         </h4>
-        <p>How many times have you had a free Friday night and no novel ideas were coming to mind? This app is for you. Event Findr gives the user the ability to search for events located by city or zip code and the weather for the current day of search.
+        <p>How many times have you had a free Friday night and no novel ideas were coming to mind? This app is for you. Event Findr gives the user the ability to search for events located by city or zip code and the weather for the current day of the search.
           <br />Never again be plagued by sitting at home with no plans over the weekend!
           <br /><br />Event Findr is a project that hones in on third party API integration. It connects with the TicketMaster and
           APIXU Weather APIs.
           </p>
         <ul className='links'>
-          <li><a className='link' href='https://github.com/jmw7/Event-Findr'>Github</a></li>
-          <li><a className='link' href='https://jmw7.github.io/Event-Findr/'>View Project</a></li>
+          <li><a className='link' href='https://github.com/jmw7/Event-Findr' target='_blank' rel="noopener noreferrer">Github</a></li>
+          <li><a className='link' href='https://jmw7.github.io/Event-Findr/' target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
     </div>
