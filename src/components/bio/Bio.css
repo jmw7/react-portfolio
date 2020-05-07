@@ -10,18 +10,21 @@
   padding: 10px;
   border: 1px gray solid;
   background-color: white;
+  -moz-box-shadow:    3px 3px 5px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+  box-shadow:         3px 3px 5px 3px #ccc;
 }
 
 img.bio-pic{
   border-radius: 10px;
   display: block;
-  width: 80vw;
+  width: 60vw;
   margin: 0 auto 15px;
 }
 
 .bio {
   display: block;
-  width: 80vw;
+  width: 60vw;
   margin: 5px auto;
 }
 

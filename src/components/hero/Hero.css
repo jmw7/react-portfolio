@@ -28,8 +28,7 @@ div.hero-description {
 .bio-item{
   display: flex;
   align-items:center;
-  padding-left: 25px;
-  
+  padding: 2.5px 0 2.5px 25px;
 }
 
 .bio-icon {
