@@ -17,7 +17,7 @@ export default function Bio() {
           It connects people in ways that weren't possible before.
           I've taken this coding journey solo for quite some time and I'm thirsty to contribute and be challenged by a team of great developers.
           <br /><br />
-          A few other things that get me out of bed in the morning - I am an avid hiker, an out of habit reader, and pretty good at Tetris too. 
+          A few other things that get me out of bed in the morning - I am an avid hiker, an out of habit reader, and I'm pretty good at Tetris too. 
           </p>
         </div>
       </div>

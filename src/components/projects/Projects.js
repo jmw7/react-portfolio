@@ -21,7 +21,9 @@ export default function Projects() {
       <h2>Projects</h2>
       <div className="project">
         <div className='img-container'>
-          <img src={Budgeteer} alt="Budgeteer" className="budgeter-img image" />
+          <a className="link" href="https://budgeteer-app.now.sh/" target='_blank' rel="noopener noreferrer">
+            <img src={Budgeteer} alt="Budgeteer" className="budgeteer-img image" />
+          </a>
         </div>
         <h3>Budgeteer</h3>
         <h4>
@@ -44,7 +46,9 @@ export default function Projects() {
 
       <div className="project">
         <div className='img-container'>
-          <img src={Recipe} alt="Recipe Catalog" className="recipe-img image" />
+          <a className="link" href="https://recipes-app-zeta.now.sh/" target='_blank' rel="noopener noreferrer">
+            <img src={Recipe} alt="Recipe Catalog" className="recipe-img image" />
+          </a>
         </div>
         <h3>Recipe Catalog</h3>
         <h4>
@@ -66,7 +70,9 @@ export default function Projects() {
 
       <div className="project">
         <div className='img-container'>
-          <img src={Findr} alt="Findr" className="event_findr_img image" />
+          <a className='link' href='https://jmw7.github.io/Event-Findr/' target='_blank' rel="noopener noreferrer">
+            <img src={Findr} alt="Findr" className="event_findr_img image" />
+          </a>
         </div>
         <h3>Event Findr</h3>
         <h4>
