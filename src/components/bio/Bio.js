@@ -11,7 +11,7 @@ export default function Bio() {
         <img src={Travel} alt='New Zealand' className='bio-pic' />
         <div className="bio">
           <p>
-          I'm a full-stack web developer focused on React, Node, and PostgreSQL, sprinkled with a little bit of ASP Classic and SQL.
+          I'm a full-stack web developer focused on React, Node, and PostgreSQL, sprinkled with a little bit of ASP Classic and SQL Server.
           <br /><br />
           I love web development because it answers a myriad of problems in the world, with a little bit of tailoring of course.
           It connects people in ways that weren't possible before.
