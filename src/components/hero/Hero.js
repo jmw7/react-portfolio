@@ -16,7 +16,7 @@ export default function Hero() {
         <div className='quick-description'>
           <p>I'm a <strong>full-stack developer</strong> located in the greater Atlanta area. I play nicely with:</p>
           <h4 id='skills'><strong>HTML | CSS | Javascript | React | Node | PostgreSQL</strong></h4>
-          <br /><br />
+          <br />
           <p>When I'm not at the keyboard, you may find me...
           </p>
           <div className='bio-item'>
