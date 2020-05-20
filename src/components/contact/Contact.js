@@ -22,7 +22,7 @@ export default function Contact() {
           </a>
         </li>
         <li>
-          <a className="linkedin" href="https://www.linkedin.com/in/mendola-wong/" target='_blank'  rel="noopener noreferrer">
+          <a className="linkedin" href="https://www.linkedin.com/in/justinmendolawong/" target='_blank'  rel="noopener noreferrer">
             <img src={LinkedIn} alt='linkedIn' className='contact-icon' />
           </a>
         </li>
