@@ -15,7 +15,7 @@ export default function Hero() {
         <img src={BioPhoto} alt='Justin Mendola-Wong' id='bioPhoto' />
         <div className='quick-description'>
           <p>I'm a <strong>full-stack developer</strong> located in the greater Atlanta area. I play nicely with:</p>
-          <h4 id='skills'><strong>HTML | CSS | Javascript | React | Node | PostgreSQL</strong></h4>
+          <h4 id='skills'><strong>HTML | CSS | JavaScript | React | Node | PostgreSQL</strong></h4>
           <br />
           <p>When I'm not at the keyboard, you may find me...
           </p>
