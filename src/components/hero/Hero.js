@@ -17,8 +17,7 @@ export default function Hero() {
           <p>I'm a <strong>full-stack developer</strong> located in the greater Atlanta area. I play nicely with:</p>
           <h4 id='skills'><strong>HTML | CSS | JavaScript | React | Node | PostgreSQL</strong></h4>
           <br />
-          <p>When I'm not at the keyboard, you may find me...
-          </p>
+          <p>When I'm not at the keyboard, you may find me...</p>
           <div className='bio-item'>
             <img src={Coffee} alt='coffee' className='bio-icon' />
             <p>perfecting my coffee brewing skills</p>
@@ -33,7 +32,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
