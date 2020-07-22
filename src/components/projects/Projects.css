@@ -38,6 +38,7 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .image {
@@ -77,11 +78,21 @@ ul.links {
 }
 
 a.link {
+  padding: 2px 6px;
+  border-top: 1px solid lightblue;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid lightblue;
+  background-color: lightblue;
   text-decoration: none;
-}
+  font: bold 17px Arial;
+  border-radius: 4px;
+  color: black;
+  }
 
 a.link:hover {
-  text-decoration: underline;
+  background-color: darkslategray;
+  color: lightblue;
 }
 
 #nodejs {
