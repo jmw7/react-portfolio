@@ -16,10 +16,11 @@ ul.contact-icons {
 
 .contact-icon{
   height: 30px;
-  -moz-transition: top 2s ease-in-out;
-	-webkit-transition: top 2s ease-in-out;
-	-ms-transition: top 2s ease-in-out;
-  transition: top 2s ease-in-out;
+  top: 0px;
+  -moz-transition: top .3s ease-in-out;
+	-webkit-transition: top .3s ease-in-out;
+	-ms-transition: top .3s ease-in-out;
+  transition: top .3s ease-in-out;
 }
 
 .contact-icon:hover {

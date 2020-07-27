@@ -77,7 +77,7 @@ ul.links {
   align-content: center;
 }
 
-a.link {
+a.link-btn {
   padding: 2px 6px;
   border-top: 1px solid lightblue;
   border-right: 1px solid #333333;
@@ -88,9 +88,13 @@ a.link {
   font: bold 17px Arial;
   border-radius: 4px;
   color: black;
+  transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-ms-transition: background-color .2s ease-in-out;
   }
 
-a.link:hover {
+a.link-btn:hover {
   background-color: darkslategray;
   color: lightblue;
 }

@@ -38,9 +38,9 @@ export default function Projects() {
         I built Budgeteer as a tool to help make managing transactions easier.
         </p>
         <ul className="links">
-          <li><a className="link" href="https://github.com/jmw7/budgeteer-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
-          <li><a className="link" href="https://github.com/jmw7/budgeteer-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
-          <li><a className="link" href="https://budgeteer-app.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
+          <li><a className="link-btn" href="https://github.com/jmw7/budgeteer-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
+          <li><a className="link-btn" href="https://github.com/jmw7/budgeteer-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
+          <li><a className="link-btn" href="https://budgeteer-app.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
 
@@ -62,9 +62,9 @@ export default function Projects() {
         The idea evolved out of bookmarking recipes I'd find on the web and needed a consolidated place to keep them. This is for anyone who searches for a new recipe to cook the day of.
         </p>
         <ul className="links">
-          <li><a className="link" href="https://github.com/jmw7/recipe-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
-          <li><a className="link" href="https://github.com/jmw7/recipe-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
-          <li><a className="link" href="https://recipes-app-zeta.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
+          <li><a className="link-btn" href="https://github.com/jmw7/recipe-client" target='_blank' rel="noopener noreferrer">Client Code</a></li>
+          <li><a className="link-btn" href="https://github.com/jmw7/recipe-api" target='_blank' rel="noopener noreferrer">Server Code</a></li>
+          <li><a className="link-btn" href="https://recipes-app-zeta.now.sh/" target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
 
@@ -86,8 +86,8 @@ export default function Projects() {
           APIXU Weather APIs.
           </p>
         <ul className='links'>
-          <li><a className='link' href='https://github.com/jmw7/Event-Findr' target='_blank' rel="noopener noreferrer">Github</a></li>
-          <li><a className='link' href='https://jmw7.github.io/Event-Findr/' target='_blank' rel="noopener noreferrer">View Project</a></li>
+          <li><a className='link-btn' href='https://github.com/jmw7/Event-Findr' target='_blank' rel="noopener noreferrer">Github</a></li>
+          <li><a className='link-btn' href='https://jmw7.github.io/Event-Findr/' target='_blank' rel="noopener noreferrer">View Project</a></li>
         </ul>
       </div>
     </div>
